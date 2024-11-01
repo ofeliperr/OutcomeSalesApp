@@ -1,0 +1,33 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.dashboard-title {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-around;
+    /* Distribui o espaço entre os selects */
+    align-items: center;
+    /* Alinha verticalmente os selects e os labels */
+    margin-bottom: 20px;
+}
+
+.select-group {
+    display: flex;
+    flex-direction: column;
+    /* Faz com que o label fique acima do select */
+    align-items: flex-start;
+    /* Alinha os itens à esquerda */
+}
+
+.select-group label {
+    margin-bottom: 5px;
+    /* Espaço entre o label e o select */
+}
